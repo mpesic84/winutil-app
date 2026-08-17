@@ -16,7 +16,7 @@ CC:::::::::::::::C       T:::::::::T            T:::::::::T
 CCC::::::::::::C         T:::::::::T            T:::::::::T
   CCCCCCCCCCCCC          TTTTTTTTTTT            TTTTTTTTTTT
 
-====Chris Titus Tech=====
+=======Misa Pesic========
 =====Windows Toolbox=====
 "@
 
@@ -435,29 +435,30 @@ $sync["AboutMenuItem"].Add_Click({
     Invoke-WPFPopup -Action "Hide" -Popups @("Settings")
 
     $authorInfo = @"
-Author   : <a href="https://github.com/ChrisTitusTech">@ChrisTitusTech</a>
+Fork Maintainer : <a href="https://github.com/mpesic84">@mpesic84</a>
+Original Author : <a href="https://github.com/ChrisTitusTech">@ChrisTitusTech</a>
 UI       : <a href="https://github.com/MyDrift-user">@MyDrift-user</a>, <a href="https://github.com/Marterich">@Marterich</a>
 Runspace : <a href="https://github.com/DeveloperDurp">@DeveloperDurp</a>, <a href="https://github.com/Marterich">@Marterich</a>
-GitHub   : <a href="https://github.com/ChrisTitusTech/winutil">ChrisTitusTech/winutil</a>
-Version  : <a href="https://github.com/ChrisTitusTech/winutil/releases/tag/$($sync.version)">$($sync.version)</a>
+GitHub   : <a href="https://github.com/mpesic84/winutil-app">mpesic84/winutil-app</a>
+Version  : <a href="https://github.com/mpesic84/winutil-app/releases/tag/$($sync.version)">$($sync.version)</a>
 "@
     Show-CustomDialog -Title "About" -Message $authorInfo
 })
 $sync["DocumentationMenuItem"].Add_Click({
     Invoke-WPFPopup -Action "Hide" -Popups @("Settings")
-    Start-Process "https://winutil.christitus.com/"
+    Start-Process "https://github.com/mpesic84/winutil-app"
 })
 $sync["SponsorMenuItem"].Add_Click({
     Invoke-WPFPopup -Action "Hide" -Popups @("Settings")
 
     $authorInfo = @"
-<a href="https://github.com/sponsors/ChrisTitusTech">Current sponsors for ChrisTitusTech:</a>
+<a href="https://github.com/sponsors/mpesic84">Current sponsors for mpesic84:</a>
 "@
     $authorInfo += "`n"
     try {
         $sponsors = Invoke-WinUtilSponsors
         foreach ($sponsor in $sponsors) {
-            $authorInfo += "<a href=`"https://github.com/sponsors/ChrisTitusTech`">$sponsor</a>`n"
+            $authorInfo += "<a href=`"https://github.com/sponsors/mpesic84`">$sponsor</a>`n"
         }
     } catch {
         $authorInfo += "An error occurred while fetching or processing the sponsors: $_`n"
