@@ -1,19 +1,16 @@
 ---
 title: Documentation
-description: Chris Titus Tech's Windows Utility — install apps, apply tweaks, run fixes, and manage Windows from one place.
+description: Misa Pesic's Windows Utility — install apps, apply tweaks, run fixes, and manage Windows from one place. Fork of ChrisTitusTech/winutil.
 template: splash
 editUrl: false
 heroEyebrow: Open Source Windows Setup Utility
 heroCaption: Free. Open source. No installer, no telemetry, no bloat.
 heroBadges:
-  - src: https://img.shields.io/github/v/release/ChrisTitusTech/winutil?color=%230567ff&label=Latest%20Release&style=for-the-badge
+  - src: https://img.shields.io/github/v/release/mpesic84/winutil-app?color=%230567ff&label=Latest%20Release&style=for-the-badge
     alt: Latest release
-    href: https://github.com/ChrisTitusTech/winutil/releases/latest
-  - src: https://img.shields.io/github/downloads/ChrisTitusTech/winutil/winutil.ps1?label=Total%20Downloads&style=for-the-badge
+    href: https://github.com/mpesic84/winutil-app/releases/latest
+  - src: https://img.shields.io/github/downloads/mpesic84/winutil-app/winutil.ps1?label=Total%20Downloads&style=for-the-badge
     alt: Total downloads
-  - src: https://dcbadge.limes.pink/api/server/https://discord.gg/RUbZUZyByQ
-    alt: Discord community server
-    href: https://discord.gg/RUbZUZyByQ
 hero:
   title: Set up Windows the way you actually want it
   tagline: Install apps, apply tweaks, run fixes, and manage Windows updates — all from one script, one window, no fuss.
@@ -24,7 +21,7 @@ hero:
       link: /guides/
       icon: right-arrow
     - text: View on GitHub
-      link: https://github.com/ChrisTitusTech/winutil
+      link: https://github.com/mpesic84/winutil-app
       icon: external
       variant: secondary
 head:
@@ -44,9 +41,9 @@ head:
         "@context": "https://schema.org",
         "@type": "SoftwareApplication",
         "name": "WinUtil",
-        "description": "Chris Titus Tech's Windows Utility — install apps, apply tweaks, run fixes, and manage Windows from one place.",
-        "url": "https://winutil.christitus.com/",
-        "downloadUrl": "https://github.com/ChrisTitusTech/winutil",
+        "description": "Misa Pesic's Windows Utility — install apps, apply tweaks, run fixes, and manage Windows from one place. Fork of ChrisTitusTech/winutil.",
+        "url": "https://mpesic84.github.io/winutil-app/",
+        "downloadUrl": "https://github.com/mpesic84/winutil-app",
         "operatingSystem": "Windows",
         "applicationCategory": "UtilitiesApplication",
         "offers": {
@@ -56,7 +53,7 @@ head:
         },
         "author": {
           "@type": "Person",
-          "name": "Chris Titus Tech"
+          "name": "Misa Pesic"
         }
       }
 ---
@@ -179,7 +176,7 @@ import CornerCard from '../../components/CornerCard.astro';
 				<span class="wu-timeline-number">2</span>
 				<h3>Run the launch command</h3>
 				<p>Downloads and starts the latest release.</p>
-				<Code code={'irm "https://christitus.com/win" | iex'} lang="powershell" />
+				<Code code={'irm "https://github.com/mpesic84/winutil-app/releases/latest/download/winutil.ps1" | iex'} lang="powershell" />
 			</div>
 			<div class="wu-timeline-step">
 				<span class="wu-timeline-number">3</span>
@@ -221,7 +218,7 @@ import CornerCard from '../../components/CornerCard.astro';
 				{'Get Started'}
 				<Icon name="right-arrow" size="1.5em" class="wu-icon-arrow" />
 			</a>
-			<a class="wu-btn wu-btn-secondary" href="https://github.com/ChrisTitusTech/winutil">
+			<a class="wu-btn wu-btn-secondary" href="https://github.com/mpesic84/winutil-app">
 				<Icon name="github" />
 				{' View on GitHub'}
 			</a>

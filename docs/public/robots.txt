@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://winutil.christitus.com/sitemap-index.xml
+Sitemap: https://mpesic84.github.io/winutil-app/sitemap-index.xml
