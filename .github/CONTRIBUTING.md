@@ -7,7 +7,7 @@
 #### **Run the latest pre-release**
 
 ```ps1
-irm https://christitus.com/windev | iex
+irm https://raw.githubusercontent.com/mpesic84/winutil-app/main/windev.ps1 | iex
 ```
 
 > [!CAUTION]
@@ -66,7 +66,7 @@ graph TD
 > This is a diagram to guide you through the process. It may vary depending on the type of change you're making.
 
 ### Fork the Repo
-* Fork the WinUtil Repository [here](https://github.com/ChrisTitusTech/winutil) to create a copy that will be available in your repository list.
+* Fork the WinUtil Repository [here](https://github.com/mpesic84/winutil-app) to create a copy that will be available in your repository list.
 
 ![Fork Image](/docs/src/assets/contributing/Fork-Button-Dark.png)
 
@@ -113,6 +113,6 @@ Open PowerShell as Administrator.
 ![Push Commit Image](/docs/src/assets/contributing/Push-Commit.png)
 
 ### Making a PR
-* To make a PR on your repo under a new branch linking to the main branch, a button will show and say Preview and Create pull request. Click that button and fill in all the information that is provided on the template. Once all the information is filled in correctly, check your PR to make sure there is no WinUtil.ps1 file attached to the PR. Once everything is good, make the PR and wait for Chris (the maintainer) to accept or deny your PR. Once it is accepted by Chris, you will be able to see your changes in the "/windev" build.
+* To make a PR on your repo under a new branch linking to the main branch, a button will show and say Preview and Create pull request. Click that button and fill in all the information that is provided on the template. Once all the information is filled in correctly, check your PR to make sure there is no WinUtil.ps1 file attached to the PR. Once everything is good, make the PR and wait for the maintainer to accept or deny your PR. Once it is accepted, you will be able to see your changes in the dev build.
 * If you do not see your feature in the main "/win" build, that is fine. All new changes go into the /windev build to make sure everything is working OK before going fully public.
 * Congratulations! You just submitted your first PR. Thank you so much for contributing to WinUtil.
