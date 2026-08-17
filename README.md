@@ -62,9 +62,10 @@ See https://github.com/mpesic84/winutil-app/blob/main/.github/CONTRIBUTING.md
 
 ## Resources
 
-- [Original Project (ChrisTitusTech/winutil)](https://github.com/ChrisTitusTech/winutil)
-- [Original Documentation](https://winutil.christitus.com/)
+- [Documentation](https://mpesic84.github.io/winutil-app/)
+- [Known Issues](https://mpesic84.github.io/winutil-app/knownissues/)
 - [Report an Issue](https://github.com/mpesic84/winutil-app/issues)
+- [Original Project (ChrisTitusTech/winutil)](https://github.com/ChrisTitusTech/winutil)
 
 ---
 

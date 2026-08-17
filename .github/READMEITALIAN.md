@@ -52,13 +52,13 @@ Esempio:
 Per vedere esattamente cosa fa ogni preset, consulta:
 https://github.com/mpesic84/winutil-app/blob/main/config/preset.json
 
-In caso di problemi, consulta i [Problemi noti](https://winutil.christitus.com/knownissues/) o [Apri una segnalazione](https://github.com/mpesic84/winutil-app/issues)
+In caso di problemi, consulta i [Problemi noti](https://mpesic84.github.io/winutil-app/knownissues/) o [Apri una segnalazione](https://github.com/mpesic84/winutil-app/issues)
 
 ## 🎓 Documentazione
 
-### [Progetto originale (ChrisTitusTech/winutil)](https://github.com/ChrisTitusTech/winutil)
+### [Documentazione di WinUtil](https://mpesic84.github.io/winutil-app/)
 
-### [Documentazione originale di WinUtil](https://winutil.christitus.com/)
+### [Progetto originale (ChrisTitusTech/winutil)](https://github.com/ChrisTitusTech/winutil)
 
 ## 🛠️ Build & Sviluppo
 
